@@ -1,0 +1,34 @@
+The array object is used to store multiple values in one variable
+
+const cars = ["volvo", "bmw", "audi"]
+
+Array concatenation
+SYNTAX
+arr1.concat(arr2, arr3,...arrX)
+
+EX.)
+const arr1 = ["cecilie", "lone"]
+const arr2 = ["tobias", "linus", "emil"]
+const children = arr1.concat(arr2);
+
+Array Constructor
+SYNTAX
+array.constructor
+
+EX.)
+const fruits = ["apples", "bananas", "pears", "grapes"]
+let text = fruits.constructor;
+
+Array copyWithin()
+SYNTAX
+array.copyWithin(target, start, end)
+where:
+Target is required, the index position to copy the elements to
+Start is optional, default is zero
+End is optional, default is array length
+
+EX.)
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.copyWithin(2,0);
+fruits.copyWithin(2,0,2)
+
