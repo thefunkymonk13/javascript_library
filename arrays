@@ -32,3 +32,19 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 fruits.copyWithin(2,0);
 fruits.copyWithin(2,0,2)
 
+Array Entries
+Returns an array iterator with key/value pairs
+
+SYNTAX
+array.entries()
+
+EX.)
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const f = fruits.entries();
+
+for (let x of f) {
+  document.getElementById("demo").innerHTML += x;
+}
+
+Array every()
+
