@@ -47,4 +47,80 @@ for (let x of f) {
 }
 
 Array every()
+Returns true if all elements in an array pass a test provided as a function
+array.every(function(currentValue, index, arr), thisValue)
 
+where:
+function() is required, a function to be run for each element in the array
+currentValue is required, the value of the current element
+index is optional, the index of the current element
+arr is optional, the array of the current element
+thisValue is optional, default is undefined, a value passed to the function as its this value
+
+boolean true if all elements pass the test, otherwise false
+
+EX.) 
+const ages = [32, 33, 16, 40];
+ages.every(checkAge)
+function checkAge(age) {
+  return age > 18;
+}
+
+const ages = [32, 33, 40, 16, 25]
+
+ages.every(checkAge)
+
+function checkAge(age) {
+  return age > 18;
+}
+console.log(ages.every(checkAge));
+
+Array fill()
+Fills specified elements in an array with a value and overwrites the original array. 
+Start and end position can be specified. If not all elements will be filled
+
+SYNTAX
+array.fill(value, start, end)
+
+where:
+value is required
+start is optional, the default is 0
+end is optional, default is array length
+
+EX.)
+const fruits = ["banana", "orange", "apple", "mango"];
+fruits.fill("kiwi");
+console.log(fruits)
+
+yields:
+['kiwi', 'kiwi', 'kiwi', 'kiwi']
+
+EX2.)
+fruits.fill("kiwi", 2, 4);
+console.log(fruits)
+
+yields:
+['banana', 'apple', 'kiwi', 'kiwi']
+
+Array filter()
+Creates a new array filled with elements that pass a test provided by a function. It does not execute the function for empty elements and does not change
+the original array.
+
+SYNTAX
+array.filter(function(currentValue, index, arr), thisValue)
+
+where:
+function() is required
+currentValue is required
+index is optional
+arr is optional
+thisValue is optional. Default is undefined. A value pass to the function as its this value
+
+EX.)
+const ages = [32, 33, 16, 40];
+const result = ages.filter(checkAdult);
+
+function checkAdult(age) {
+  return age >= 18;
+}
+console.log(result)
