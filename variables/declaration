@@ -1,1 +1,29 @@
+It's a good programming practice to declare all variables at the beginning of a script.
 
+4 Ways to Declare a JavaScript Variable:
+
+1.) Using var
+When to Use JavaScript var?
+
+The var keyword is used in all JavaScript code from 1995 to 2015.
+
+
+
+2.) Using let
+If you think the value of the variable can change, use let.
+
+You cannot re-declare a variable declared with let or const.
+
+This will not work:
+
+let carName = "Volvo";
+let carName;
+
+
+3.) Using const
+When to Use JavaScript const?
+If you want a general rule: always declare variables with const.
+
+const carName = "Volvo";
+
+4.) Using nothing
