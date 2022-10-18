@@ -1,1 +1,96 @@
+JavaScript Assignment Operators
+Assignment operators assign values to JavaScript variables.
 
+Operator	Example	Same As
+=	x = y	x = y
++=	x += y	x = x + y
+-=	x -= y	x = x - y
+*=	x *= y	x = x * y
+/=	x /= y	x = x / y
+%=	x %= y	x = x % y
+**=	x **= y	x = x ** y
+
+Shift Assignment Operators
+Operator	Example	Same As
+<<=	x <<= y	x = x << y
+>>=	x >>= y	x = x >> y
+>>>=	x >>>= y	x = x >>> y
+
+Logical Assignment Operators
+Operator	Example	Same As
+&=	x &= y	x = x & y
+^=	x ^= y	x = x ^ y
+|=	x |= y	x = x | y
+
+The = Operator
+The = assignment operator assigns a value to a variable.
+
+Simple Assignment
+let x = 10;
+
+The += Operator
+The += assignment operator adds a value to a variable.
+
+Addition Assignment
+let x = 10;
+x += 5;
+
+The -= Operator
+The -= assignment operator subtracts a value from a variable.
+
+Subtraction Assignment
+let x = 10;
+x -= 5;
+
+The *= Operator
+The *= assignment operator multiplies a variable.
+
+Multiplication Assignment
+let x = 10;
+x *= 5;
+
+The /= Operator
+The /= assignment divides a variable.
+
+Division Assignment
+let x = 10;
+x /= 5;
+
+The %= Operator
+The %= assignment operator assigns a remainder to a variable.
+
+Remainder Assignment
+let x = 10;
+x %= 5;
+
+The <<= Operator
+The <<= assignment operator left shifts a variable.
+
+Left Shift Assignment
+let x = -100;
+x <<= 5;
+
+The >>= Operator
+The >>= assignment operator right shifts a variable (signed).
+
+Right Shift Assignment
+let x = -100;
+x >>= 5;
+The >>>= Operator
+The >>>= assignment operator right shifts a variable (unsigned).
+
+Unsigned Right Shift Assignment
+let x = -100;
+x >>>= 5;
+The &= Operator
+The &= assignment operator ANDs a variable.
+
+Bitwise AND Assignment
+let x = 10;
+x &= 5;
+The != Operator
+The != assignment operator ORs a variable.
+
+Bitwise OR Assignment
+let x = 10;
+x != 5;
