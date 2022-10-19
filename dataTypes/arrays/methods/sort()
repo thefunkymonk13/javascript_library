@@ -1,0 +1,6 @@
+Sorting an Array
+The sort() method sorts an array alphabetically:
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
