@@ -1,0 +1,26 @@
+JavaScript Array filter()
+The filter() method creates a new array with array elements that pass a test.
+
+This example creates a new array from elements with a value larger than 18:
+
+Example
+const numbers = [45, 4, 9, 16, 25];
+const over18 = numbers.filter(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+Note that the function takes 3 arguments:
+
+The item value
+The item index
+The array itself
+In the example above, the callback function does not use the index and array parameters, so they can be omitted:
+
+Example
+const numbers = [45, 4, 9, 16, 25];
+const over18 = numbers.filter(myFunction);
+
+function myFunction(value) {
+  return value > 18;
+}
