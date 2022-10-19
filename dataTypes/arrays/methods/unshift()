@@ -1,0 +1,11 @@
+JavaScript Array unshift()
+The unshift() method adds a new element to an array (at the beginning), and "unshifts" older elements:
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");
+The unshift() method returns the new array length.
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.unshift("Lemon");
