@@ -1,0 +1,16 @@
+JavaScript Array Keys()
+The Array.keys() method returns an Array Iterator object with the keys of an array.
+
+Example
+Create an Array Iterator object, containing the keys of the array:
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const keys = fruits.keys();
+
+for (let x of keys) {
+  text += x + "<br>";
+}
+Browser Support
+keys() is an ES6 feature (JavaScript 2015).
+
+It is supported in all modern browsers:
