@@ -1,0 +1,7 @@
+JavaScript POSITIVE_INFINITY
+Example
+let x = Number.POSITIVE_INFINITY;
+POSITIVE_INFINITY is returned on overflow:
+
+Example
+let x = 1 / 0;
