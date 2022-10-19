@@ -1,0 +1,15 @@
+The valueOf() Method
+valueOf() returns a number as a number.
+
+Example
+let x = 123;
+x.valueOf();
+(123).valueOf();
+(100 + 23).valueOf();
+In JavaScript, a number can be a primitive value (typeof = number) or an object (typeof = object).
+
+The valueOf() method is used internally in JavaScript to convert Number objects to primitive values.
+
+There is no reason to use it in your code.
+
+All JavaScript data types have a valueOf() and a toString() method.
