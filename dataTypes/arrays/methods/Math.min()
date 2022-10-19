@@ -7,3 +7,17 @@ function myArrayMin(arr) {
 }
 
 Math.min.apply(null, [1, 2, 3]) is equivalent to Math.min(1, 2, 3).
+
+This function loops through an array comparing each value with the lowest value found:
+
+Example (Find Min)
+function myArrayMin(arr) {
+  let len = arr.length;
+  let min = Infinity;
+  while (len--) {
+    if (arr[len] < min) {
+      min = arr[len];
+    }
+  }
+  return min;
+}
