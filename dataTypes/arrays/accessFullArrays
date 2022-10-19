@@ -1,0 +1,6 @@
+Access the Full Array
+With JavaScript, the full array can be accessed by referring to the array name:
+
+Example
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
