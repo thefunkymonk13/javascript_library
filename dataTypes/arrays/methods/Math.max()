@@ -7,3 +7,17 @@ function myArrayMax(arr) {
 }
 
 Math.max.apply(null, [1, 2, 3]) is equivalent to Math.max(1, 2, 3).
+
+This function loops through an array comparing each value with the highest value found:
+
+Example (Find Max)
+function myArrayMax(arr) {
+  let len = arr.length;
+  let max = -Infinity;
+  while (len--) {
+    if (arr[len] > max) {
+      max = arr[len];
+    }
+  }
+  return max;
+}
