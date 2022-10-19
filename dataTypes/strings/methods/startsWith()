@@ -1,0 +1,25 @@
+JavaScript String startsWith()
+The startsWith() method returns true if a string begins with a specified value, otherwise false:
+
+Example
+let text = "Hello world, welcome to the universe.";
+
+text.startsWith("Hello");
+Syntax
+string.startsWith(searchvalue, start)
+Parameter Values
+Parameter	Description
+searchvalue	Required. The value to search for.
+start	Optional. Default 0. The position to start the search.
+Examples
+let text = "Hello world, welcome to the universe.";
+
+text.startsWith("world")    // Returns false
+let text = "Hello world, welcome to the universe.";
+
+text.startsWith("world", 5)    // Returns false
+let text = "Hello world, welcome to the universe.";
+
+text.startsWith("world", 6)    // Returns true
+Note
+The startsWith() method is case sensitive
