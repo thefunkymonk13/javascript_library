@@ -1,0 +1,9 @@
+Using Math.max() on an Array
+You can use Math.max.apply to find the highest number in an array:
+
+Example
+function myArrayMax(arr) {
+  return Math.max.apply(null, arr);
+}
+
+Math.max.apply(null, [1, 2, 3]) is equivalent to Math.max(1, 2, 3).
