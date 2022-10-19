@@ -1,0 +1,11 @@
+JavaScript Array.from()
+The Array.from() method returns an Array object from any object with a length property or any iterable object.
+
+Example
+Create an Array from a String:
+
+Array.from("ABCDEFG");
+Browser Support
+from() is an ES6 feature (JavaScript 2015).
+
+It is supported in all modern browsers:
