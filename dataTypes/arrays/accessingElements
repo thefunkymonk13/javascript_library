@@ -6,3 +6,13 @@ let car = cars[0];
 Note: Array indexes start with 0.
 
 [0] is the first element. [1] is the second element.
+
+Accessing the First Array Element
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits[0];
+
+Accessing the Last Array Element
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits[fruits.length - 1];
