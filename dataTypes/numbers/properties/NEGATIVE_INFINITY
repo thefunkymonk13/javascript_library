@@ -1,0 +1,7 @@
+JavaScript NEGATIVE_INFINITY
+Example
+let x = Number.NEGATIVE_INFINITY;
+NEGATIVE_INFINITY is returned on overflow:
+
+Example
+let x = -1 / 0;
