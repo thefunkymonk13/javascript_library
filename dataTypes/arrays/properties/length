@@ -5,3 +5,10 @@ Example
 const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let length = fruits.length;
 The length property is always one more than the highest array index.
+
+JavaScript Array length
+The length property provides an easy way to append a new element to an array:
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits[fruits.length] = "Kiwi";
