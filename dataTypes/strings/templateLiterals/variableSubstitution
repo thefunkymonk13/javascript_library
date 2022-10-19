@@ -1,0 +1,8 @@
+Variable Substitutions
+Template literals allow variables in strings:
+
+Example
+let firstName = "John";
+let lastName = "Doe";
+
+let text = `Welcome ${firstName}, ${lastName}!`;
