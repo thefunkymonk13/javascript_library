@@ -1,0 +1,11 @@
+JavaScript Array shift()
+The shift() method removes the first array element and "shifts" all other elements to a lower index.
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.shift();
+The shift() method returns the value that was "shifted out":
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let fruit = fruits.shift();
