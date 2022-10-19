@@ -1,0 +1,9 @@
+Using Math.min() on an Array
+You can use Math.min.apply to find the lowest number in an array:
+
+Example
+function myArrayMin(arr) {
+  return Math.min.apply(null, arr);
+}
+
+Math.min.apply(null, [1, 2, 3]) is equivalent to Math.min(1, 2, 3).
