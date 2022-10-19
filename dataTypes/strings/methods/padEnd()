@@ -1,0 +1,21 @@
+JavaScript String padEnd()
+The padEnd() method pads a string with another string:
+
+Example
+let text = "5";
+let padded = text.padEnd(4,"x");
+Example
+let text = "5";
+let padded = text.padEnd(4,"0");
+
+Note
+The padEnd() method is a string method.
+
+To pad a number, convert the number to a string first.
+
+See the example below.
+
+Example
+let numb = 5;
+let text = numb.toString();
+let padded = text.padEnd(4,"0");
