@@ -1,0 +1,4 @@
+MIN_VALUE returns the lowest possible number in JavaScript.
+
+Example
+let x = Number.MIN_VALUE;
