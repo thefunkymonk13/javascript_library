@@ -24,3 +24,8 @@ Use the same trick to sort an array descending:
 Example
 const points = [40, 100, 1, 5, 25, 10];
 points.sort(function(a, b){return b - a});
+
+Sorting an Array in Random Order
+Example
+const points = [40, 100, 1, 5, 25, 10];
+points.sort(function(){return 0.5 - Math.random()});
