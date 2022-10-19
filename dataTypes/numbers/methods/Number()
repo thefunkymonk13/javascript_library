@@ -1,0 +1,31 @@
+Uppercase "N" is intentional
+
+The Number() Method
+Number() can be used to convert JavaScript variables to numbers:
+
+Example
+Number(true);
+Number(false);
+Number("10");
+Number("  10");
+Number("10  ");
+Number(" 10  ");
+Number("10.33");
+Number("10,33");
+Number("10 33");
+Number("John");
+If the number cannot be converted, NaN (Not a Number) is returned.
+
+The Number() Method Used on Dates
+Number() can also convert a date to a number.
+
+Example
+Number(new Date("1970-01-01"))
+The Number() method returns the number of milliseconds since 1.1.1970.
+
+The number of milliseconds between 1970-01-02 and 1970-01-01 is 86400000:
+
+Example
+Number(new Date("1970-01-02"))
+Example
+Number(new Date("2017-09-30"))
