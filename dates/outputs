@@ -1,0 +1,15 @@
+JavaScript Date Output
+Independent of input format, JavaScript will (by default) output dates in full text string format:
+
+Wed Oct 19 2022 18:55:21 GMT-0400 (Eastern Daylight Time)
+
+JavaScript ISO Dates
+ISO 8601 is the international standard for the representation of dates and times.
+
+The ISO 8601 syntax (YYYY-MM-DD) is also the preferred JavaScript date format:
+
+Example (Complete date)
+const d = new Date("2015-03-25");
+
+The computed date will be relative to your time zone.
+Depending on your time zone, the result above will vary between March 24 and March 25.
