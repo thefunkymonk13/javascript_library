@@ -1,0 +1,10 @@
+Number Properties Cannot be Used on Variables
+Number properties belongs to the JavaScript's number object wrapper called Number.
+
+These properties can only be accessed as Number.MAX_VALUE.
+
+Using myNumber.MAX_VALUE, where myNumber is a variable, expression, or value, will return undefined:
+
+Example
+let x = 6;
+x.MAX_VALUE
