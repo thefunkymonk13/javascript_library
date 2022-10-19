@@ -1,0 +1,22 @@
+JavaScript String includes()
+The includes() method returns true if a string contains a specified value.
+
+Example
+let text = "Hello world, welcome to the universe.";
+text.includes("world");
+Syntax
+string.includes(searchvalue, start)
+searchvalue	Required. The string to search for
+start	Optional. Default 0. Position to start the search
+Returns:	Returns true if the string contains the value, otherwise false
+JS Version:	ES6 (2015)
+Check if a string includes "world", starting the search at position 12:
+
+let text = "Hello world, welcome to the universe.";
+text.includes("world", 12);
+
+Browser Support
+includes() is an ES6 feature (JavaScript 2015).
+
+It is supported in all modern browsers:
+
