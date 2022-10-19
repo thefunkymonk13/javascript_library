@@ -1,0 +1,4 @@
+MAX_VALUE returns the largest possible number in JavaScript.
+
+Example
+let x = Number.MAX_VALUE;
