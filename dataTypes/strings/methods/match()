@@ -1,0 +1,21 @@
+JavaScript String match()
+The match() method searches a string for a match against a regular expression, and returns the matches, as an Array object.
+
+Example 1
+Search a string for "ain":
+
+let text = "The rain in SPAIN stays mainly in the plain";
+text.match(/ain/g);
+
+Note
+If a regular expression does not include the g modifier (to perform a global search), the match() method will return only the first match in the string.
+
+Syntax
+string.match(regexp)
+regexp	Required. The value to search for, as a regular expression.
+Returns:	An Array, containing the matches, one item for each match, or null if no match is found
+Example 2
+Perform a global, case-insensitive search for "ain":
+
+let text = "The rain in SPAIN stays mainly in the plain";
+text.match(/ain/gi);
