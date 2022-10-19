@@ -1,0 +1,22 @@
+JavaScript Array findIndex()
+The findIndex() method returns the index of the first array element that passes a test function.
+
+This example finds the index of the first element that is larger than 18:
+
+Example
+const numbers = [4, 9, 16, 25, 29];
+let first = numbers.findIndex(myFunction);
+
+function myFunction(value, index, array) {
+  return value > 18;
+}
+Note that the function takes 3 arguments:
+
+The item value
+The item index
+The array itself
+Browser Support
+findIndex() is an ES6 feature (JavaScript 2015).
+
+It is supported in all modern browsers:
+
