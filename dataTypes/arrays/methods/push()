@@ -15,3 +15,15 @@ Adding elements with high indexes can create undefined "holes" in an array:
 Example
 const fruits = ["Banana", "Orange", "Apple"];
 fruits[6] = "Lemon";  // Creates undefined "holes" in fruits
+
+JavaScript Array push()
+The push() method adds a new element to an array (at the end):
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.push("Kiwi");
+The push() method returns the new array length:
+
+Example
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let length = fruits.push("Kiwi");
